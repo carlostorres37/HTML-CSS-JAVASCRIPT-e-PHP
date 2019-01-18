@@ -1,0 +1,124 @@
+body{
+	margin: 0; /*só para tirar os espaçamentos */
+	padding: 0; /*só para tirar os espaçamentos */
+	font-family: arial;
+	margin: auto;
+}
+
+.topo{
+	height: 50px;
+	background-color: #353535;
+}
+
+.topointerior{ /* serve para não ficar colado no canto da página */
+	width: 1000px;
+	margin: auto; /* a div vai ficar centralizada automaticamento, mesmo quando mexer a tela */
+	color: #FFFFFF;
+
+}
+
+.logomarca{
+	float: left;
+	font-size: 24px;
+	line-height: 50px; /*para deixar no meio*/ 
+}
+
+.menu{
+	float: right;
+}
+
+.menu ul,
+.menu li{ /* mudar os dois atributos ao mesmo tempo */
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu li{ 
+	float: left; /* deixou a lista uma do lado da outra */
+	padding-left:10px; /* espaçamento entre linhas */
+	padding-right: 10px; /* espaçamento entre linhas */
+	line-height: 50px; 
+	font-size: 14px;
+}
+
+.menu li:hover{ /* quando passar o mouse */
+	background-color: #3480c1 ;
+	cursor: pointer;
+}
+
+.banner{
+	height: 300px;
+	background-color: #3480c1 ;
+}
+
+.bannerinterior{
+	width: 1000px;
+	margin: auto;
+}
+
+.banneresquerda{
+	float:left;
+}
+
+.frase1{
+	font-size: 48px;
+	color:#FFFFFF;
+	margin-top: 60px;
+}
+
+.frase2{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+.botao{
+	background-color: #ffc001;
+	width: 282px;
+	height: 56px;
+	text-align: center;
+	line-height: 56px;
+	font-size: 25px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.bannerdireita{
+	margin-top: 20px;
+	margin-right: 70px;
+	float:right;
+}
+.bannerdireita img{ 
+	width: 200px; 
+	height: 250px; 
+}
+
+.conteudointerno{
+	width: 1000px;
+	margin: auto;
+}
+
+.titulo{
+	height: 90px;
+	font-size: 50px;
+	margin-top: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.fotos img{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 200px;
+	height: 250px;
+}
+
+.rodape{
+	background-color: #3480c1;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 40px;
+	color: #FFFFFF;
+}
